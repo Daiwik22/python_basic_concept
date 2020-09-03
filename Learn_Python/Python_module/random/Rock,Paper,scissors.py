@@ -10,7 +10,7 @@ while True:
         print('___', end=' ')
 
     elif (player == 's'):
-        print('>8', end=' ')
+        print('8<', end=' ')
 
     else:
         print('??')
