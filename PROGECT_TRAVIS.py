@@ -1,6 +1,6 @@
 known_users = ["Shrek", "Donkey", "Fiona", "Patrick", "Bob", "Joe"]
 while True:
-   print("Hi my name NOBODY")
+   print("Hi my name Travis")
    name = input("What is your name? \t ")
    name = name.strip().capitalize()
    if name in known_users:
