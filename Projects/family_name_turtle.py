@@ -4,8 +4,8 @@ import time
 s = turtle.Screen()
 t= turtle.Turtle()
 t.speed(3)
-s.bgcolor("white")
-colors = ["red", "yellow", "blue", "green", "orange",
+s.bgcolor("Black")
+colors = ["red", "blue", "green", "orange",
           "purple", "white", "brown", "gray", "pink"]
 family = []
 name = turtle.textinput("My family",
@@ -16,7 +16,7 @@ while name != "":
 
     name = turtle.textinput("My family",
                             "Enter a name, or just hit [ENTER] to end:")
-for x in range(10000):
+for x in range(100):
     t.pencolor(colors[x%len(family)])
     t.penup()
     t.forward(x * 4)
