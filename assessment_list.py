@@ -1,4 +1,4 @@
-# list_number=["0","1","2"]
+ # list_number=["0","1","2"]
 # print("The first three number  are:\t"+list_number[0])
 # print("The first three number  are:\t"+list_number[1])
 # print("The first three number  are:\t"+list_number[2])
