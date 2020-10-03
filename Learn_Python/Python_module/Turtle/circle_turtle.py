@@ -5,7 +5,7 @@ t=turtle.Turtle()
 
 turtle.bgcolor("yellow")
 t.pencolor("green")
-for i in range(10,5,2):
+for i in range(100,50,2):
   t.circle(i)
 
 

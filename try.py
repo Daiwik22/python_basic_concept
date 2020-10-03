@@ -1,6 +1,14 @@
-film = {"Shrek": {"age": 3, "seats": 6},
-        "Mission Impossible 2": {"age": 5, "seats": 3},
-        "Endgame": {"age": 7, "seats": 5},
-        "Infinity War": {"age": 9, "seats": 5}}
+class Dog:
+    def __init__(self):
+      self.color="brown"
 
-print(film["Endgame"]["seats"])
+    def wash(self):
+        self.color="white"
+        return self.color
+
+
+dog1=Dog()
+print(dog1.color)
+
+color_new=dog1.wash()
+print(color_new)

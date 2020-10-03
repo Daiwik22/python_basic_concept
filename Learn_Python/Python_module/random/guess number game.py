@@ -7,7 +7,7 @@
 # Keep the game going until the user types “exit”
 # Keep track of how many guesses the user has taken, and when the game ends, print this out. 
 import random
-actual_num=random.randint(1,9)
+actual_num=random.randint(1,50)
 
 guess=0
 count=0

@@ -8,6 +8,7 @@ def print_board():
     row2 = "| {} | {} | {} |".format(board[3], board[4], board[5])
     row3 = "| {} | {} | {} |".format(board[6], board[7], board[8])
 
+
     print()
     print(row1)
     print(row2)
